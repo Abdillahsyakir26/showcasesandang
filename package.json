@@ -1,6 +1,7 @@
 {
   "name": "showcase",
   "private": true,
+  "engines": { "node": "22.x" },
   "scripts": {
     "seed": "node scripts/seed.mjs",
     "predev": "npm run seed",
