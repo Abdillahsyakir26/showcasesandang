@@ -1,0 +1,18 @@
+{
+  "name": "showcase",
+  "private": true,
+  "scripts": {
+    "seed": "node scripts/seed.mjs",
+    "predev": "npm run seed",
+    "dev": "next dev",
+    "prebuild": "npm run seed",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
